@@ -6,7 +6,7 @@ Created on Tue Mar  9 19:23:11 2021
 @author: drasty
 """
 
-import json,requests,pprint
+import json,requests
 
 def RepoLister(name):
     #name = input("Enter the username: ")
@@ -22,3 +22,7 @@ def RepoLister(name):
         z2 = json.loads(r2.text)
         #pprint.pprint(len(z2))
         print("Repo: "+i["name"]+" Number of commits: "+str(len(z2)))
+
+    return("200")
+
+print(RepoLister("mnthan"))
