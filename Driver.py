@@ -1,6 +1,6 @@
 import unittest
 
-from HW4a import RepoLister
+from HW05a import RepoLister
 
 # This code implements the unit test functionality
 # https://docs.python.org/3/library/unittest.html has a nice description of the framework
